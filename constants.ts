@@ -1,5 +1,13 @@
 import { StreamType } from './types';
 
+export const BITCOIN_ADDRESS = 'bc1qm7ktthfyeghpmdqjcnumfxse4d8h0g3pgujxr6';
+
+export const OFFICIAL_LINKS = [
+  { label: 'OINP Home Page', url: 'https://www.ontario.ca/page/ontario-immigrant-nominee-program-oinp' },
+  { label: 'Program Updates', url: 'https://www.ontario.ca/page/oinp-program-updates' },
+  { label: 'Application Guide', url: 'https://www.ontario.ca/document/oinp-application-guide' },
+];
+
 export const STREAMS = [
   { id: StreamType.FOREIGN_WORKER, label: 'Foreign Worker', type: 'EOI' },
   { id: StreamType.INTL_STUDENT, label: 'International Student', type: 'EOI' },
@@ -62,31 +70,31 @@ export const REGIONS = [
 ];
 
 export const CANADIAN_CREDENTIAL_OPTIONS = [
-    { value: '2+', label: 'More than one Canadian credential', score: 10 },
-    { value: '1', label: 'One Canadian credential', score: 5 },
-    { value: '0', label: 'None', score: 0 },
+  { value: '2+', label: 'More than one Canadian credential', score: 10 },
+  { value: '1', label: 'One Canadian credential', score: 5 },
+  { value: '0', label: 'None', score: 0 },
 ];
 
 export const CLB_LEVELS = [
   { value: 9, label: 'CLB 9 or higher', score: 10 },
   { value: 8, label: 'CLB 8', score: 6 },
   { value: 7, label: 'CLB 7', score: 4 },
-  { value: 6, label: 'CLB 6', score: 0 }, 
+  { value: 6, label: 'CLB 6', score: 0 },
   { value: 0, label: 'CLB 5 or lower', score: 0 },
 ];
 
 export const EOI_STREAMS = [
-    StreamType.FOREIGN_WORKER,
-    StreamType.INTL_STUDENT,
-    StreamType.IN_DEMAND,
-    StreamType.MASTERS,
-    StreamType.PHD
+  StreamType.FOREIGN_WORKER,
+  StreamType.INTL_STUDENT,
+  StreamType.IN_DEMAND,
+  StreamType.MASTERS,
+  StreamType.PHD
 ];
 
 export const EE_STREAMS = [
-    StreamType.HCP,
-    StreamType.SKILLED_TRADES,
-    StreamType.FRENCH_WORKER
+  StreamType.HCP,
+  StreamType.SKILLED_TRADES,
+  StreamType.FRENCH_WORKER
 ];
 
 export const TECH_OCCUPATIONS = [
