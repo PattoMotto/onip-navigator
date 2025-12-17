@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Circular background -->
+  <circle cx="256" cy="256" r="240" fill="#dc2626" />
+  
+  <!-- Stylized Maple Leaf (White) -->
+  <path fill="#ffffff" d="M256 64C236 128 171 182 128 160C140 200 100 240 64 240C96 260 110 280 100 320C128 300 160 310 170 340L240 460H272L342 340C352 310 384 300 412 320C402 280 416 260 448 240C412 240 372 200 384 160C341 182 276 128 256 64Z" />
+</svg>
