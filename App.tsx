@@ -62,7 +62,7 @@ const App: React.FC = () => {
               <span className="text-xs font-semibold hidden sm:inline">Donate</span>
             </button>
             <a
-              href="https://github.com/PattoMotto/onip-navigator"
+              href="https://github.com/PattoMotto/oinp-navigator"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-3 py-1.5 rounded-lg text-slate-600 hover:bg-slate-100 transition-colors group"
