@@ -1,20 +1,48 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="ONIP Navigator Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+# ONIP Navigator
+
+A tool to help navigate the OINP (Ontario Immigrant Nominee Program) process.  
+Calculate your estimated score and get personalized optimization tips.
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge)](https://pattomotto.github.io/onip-navigator/)
+
 </div>
 
-# Run and deploy your AI Studio app
+> [!NOTE]
+> This is an unofficial tool created to assist users with navigating OINP requirements. For official information, please refer to the [Ontario Immigration website](https://www.ontario.ca/page/ontario-immigrant-nominee-program-oinp).
 
-This contains everything you need to run your app locally.
+## ✨ Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1hlHoIlkNXxidxeKQnlgBydRA6kBJ2Hks
+- 🎯 **Stream Selector** — Choose from EOI and Express Entry OINP streams
+- 📊 **Score Calculator** — Real-time point calculation based on your profile
+- 💡 **Optimization Tips** — Actionable strategies to improve your score
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend:** React + TypeScript
+- **Build Tool:** Vite
+- **Hosting:** GitHub Pages
 
+## 🚀 Run Locally
+
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Run the app:
+   ```bash
+   npm run dev
+   ```
+
+## 📦 Deployment
+
+This project is automatically deployed to GitHub Pages via GitHub Actions on every push to the `main` branch.
+
+## 📄 License
+
+MIT
