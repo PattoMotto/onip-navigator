@@ -5,7 +5,7 @@ export const BITCOIN_ADDRESS = 'bc1qm7ktthfyeghpmdqjcnumfxse4d8h0g3pgujxr6';
 export const OFFICIAL_LINKS = [
   { label: 'OINP Home Page', url: 'https://www.ontario.ca/page/ontario-immigrant-nominee-program-oinp' },
   { label: 'Program Updates', url: 'https://www.ontario.ca/page/2025-ontario-immigrant-nominee-program-updates' },
-  { label: 'Application Guide', url: 'https://www.ontario.ca/document/oinp-application-guide' },
+  { label: 'Application Guide', url: 'https://www.ontario.ca/page/applying-ontario-immigrant-nominee-program-oinp' },
 ];
 
 export const STREAMS = [
